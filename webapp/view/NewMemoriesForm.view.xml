@@ -1,0 +1,20 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:layout="sap.ui.layout" xmlns:form="sap.ui.layout.form" controllerName="ui5.memories.controller.NewMemories">
+    <Page title="Dettagli Memoria">
+        <content>
+            <form:SimpleForm editable="true" layout="ResponsiveGridLayout">
+                <form:content>
+                    <Label text="Nome"/>
+                    <Input value="{/name}"/>
+                    <Label text="Luogo"/>
+                    <Input value="{/location}"/>
+                    <Label text="Descrizione"/>
+                    <TextArea value="{/description}" rows="4"/>
+                    <Label text="Data"/>
+                    <DatePicker value="{/date}" displayFormat="dd/MM/yyyy"/>
+                    <Label text="Personale"/>
+                    <Switch state="{/isPersonal}" customTextOn="Sì" customTextOff="No"/>
+                </form:content>
+            </form:SimpleForm>
+        </content>
+    </Page>
+</mvc:View>

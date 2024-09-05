@@ -1,0 +1,44 @@
+{
+  "memories": [
+    {
+      "id": 1,
+      "name": "Vacanza al mare",
+      "location": "Riviera Romagnola",
+      "description": "Una bellissima vacanza in famiglia al mare.",
+      "date": "15/07/2020",
+      "isPersonal": true
+    },
+    {
+      "id": 2,
+      "name": "Escursione in montagna",
+      "location": "Dolomiti",
+      "description": "Un'avventura indimenticabile tra i sentieri delle Dolomiti.",
+      "date": "21/08/2021",
+      "isPersonal": true
+    },
+    {
+      "id": 3,
+      "name": "Concerto rock",
+      "location": "Milano",
+      "description": "Concerto epico della mia band preferita.",
+      "date": "30/06/2022",
+      "isPersonal": true
+    },
+    {
+      "id": 4,
+      "name": "Cena di compleanno",
+      "location": "Ristorante La Terrazza",
+      "description": "Una serata speciale festeggiando con gli amici.",
+      "date": "12/09/2023",
+      "isPersonal": false
+    },
+    {
+      "id": 5,
+      "name": "Laurea",
+      "location": "Università di Bologna",
+      "description": "Il giorno della mia laurea, un momento di grande emozione.",
+      "date": "25/03/2024",
+      "isPersonal": true
+    }
+  ]
+}

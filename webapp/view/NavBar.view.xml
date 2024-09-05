@@ -1,0 +1,14 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
+    <Bar>
+        <contentLeft>
+            <Button icon="sap-icon://home" tooltip="Home" press="onHomePress"/>
+        </contentLeft>
+        <contentMiddle>
+            <Label text="Smart Memories" />
+        </contentMiddle>
+        <contentRight>
+            <Button icon="sap-icon://add" tooltip="Add Memories" press="onAddMemoriesPress"/>
+            <Button icon="sap-icon://action-settings" tooltip="Additionals" press="onAdditionalsPress"/>
+        </contentRight>
+    </Bar>
+</mvc:View>

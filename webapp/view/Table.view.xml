@@ -1,0 +1,44 @@
+<mvc:View controllerName="ui5.memories.controller.Table"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core">
+    <Table id="memoriesTable" items="{/memories}">
+        <columns>
+            <Column>
+                <Text text="ID" />
+            </Column>
+            <Column>
+                <Text text="Name" />
+            </Column>
+            <Column>
+                <Text text="Location" />
+            </Column>
+            <Column>
+                <header>
+                    <HBox xmlns="sap.m" alignItems="Center">
+                        <Label text="Date"/>
+                       <Button icon="sap-icon://navigation-down-arrow" press="onDateColumnPress" type="Transparent"/>        
+                    </HBox>
+                </header>
+            </Column>
+            <Column>
+                <Text text="Description" />
+            </Column>
+            <Column>
+                <Text text="isPersonal" />
+            </Column>
+        </columns>
+        <items>
+            <ColumnListItem>
+                <cells>
+                    <Text text="{id}" />
+                    <Text text="{name}" />
+                    <Text text="{location}" />
+                    <Text text="{date}" />
+                    <Text text="{description}" />
+                    <Switch state="{isPersonal}" change="onIsPersonalChange" class="sapUiTinyMargin" customTextOff="No" customTextOn="Yes" />
+                </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+</mvc:View>

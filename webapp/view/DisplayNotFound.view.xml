@@ -1,0 +1,12 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ui5.memories.controller.DisplayNotFound">
+    <Page title="Not Found">
+        <headerContent>
+            <Button icon="sap-icon://nav-back" press="onNavBack" />
+        </headerContent>
+        <content>
+            <VBox justifyContent="Center" alignItems="Center" fitContainer="true">
+                <Text text="Sorry, the page you're looking for cannot be found."/>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>

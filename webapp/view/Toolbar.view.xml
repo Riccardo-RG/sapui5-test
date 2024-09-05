@@ -1,0 +1,9 @@
+<mvc:View controllerName="ui5.memories.controller.Toolbar" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core">
+    <Toolbar>
+        <SearchField width="30%" placeholder="Inserisci il testo di ricerca..." search="onSearch"></SearchField>
+        <MultiComboBox id="personalFilter" width="30%" selectionFinish="onPersonalChange" selectedKeys="personal,others">
+            <core:Item key="personal" text="Personali" />
+            <core:Item key="others" text="Non personali" />
+        </MultiComboBox>
+    </Toolbar>
+</mvc:View>

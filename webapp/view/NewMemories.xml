@@ -1,0 +1,18 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.ui.layout.form" xmlns="sap.m" controllerName="YourControllerName">
+    <f:SimpleForm id="memoryForm" editable="true" layout="ResponsiveGridLayout" title="Memory Details">
+        <f:content>
+            <Label text="ID" />
+            <Input value="{/id}" enabled="false"/>
+            <Label text="Name" />
+            <Input value="{/name}"/>
+            <Label text="Location" />
+            <Input value="{/location}"/>
+            <Label text="Description" />
+            <TextArea value="{/description}" rows="4"/>
+            <Label text="Date" />
+            <DatePicker value="{/date}" displayFormat="dd/MM/yyyy"/>
+            <Label text="Is Personal" />
+            <CheckBox selected="{/isPersonal}"/>
+        </f:content>
+    </f:SimpleForm>
+</mvc:View>
